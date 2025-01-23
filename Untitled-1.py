@@ -10,5 +10,6 @@
 # ans=n/10*10
 # print(int(ans))
 
-import random
-num=random.random()
+# import random
+# num=random.random()
+
