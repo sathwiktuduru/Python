@@ -13,10 +13,13 @@ def is_prime(n):
 def main():
     num=int(input("Enter the end number"))
     count=0
+    l1=[]
     for i in range(2,num):
         check=is_prime(i)
         if check==True:
-            print(f"{i} is prime number")
-        else:
-            print(f"{i} is not a prime number")
+            l1.append(i)
+    print(l1)
 main()
+
+
+
