@@ -1,0 +1,10 @@
+class customer_details(self):
+    def __init__(self,customer_id):
+        self.customer_id=customer_id
+        self.name=name
+        self.l_name=l_name
+        self.email=email
+        self.street_name=street_name
+        self.city_name=city_name
+        self.state_name=state_name
+        self.zipcode=zipcodex
