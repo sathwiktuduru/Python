@@ -76,15 +76,101 @@
 # child.display_parent()
 
 
-#
-class Educational_institute:
-    def __init__(self):
-        print("Institute here!!")
-    
-    def staff(self):
-        print("Faculty here!!")
-    def students(self):
-        print("Students here!!")
+#Constructor with static variable
+# class Static_variable:
+#     def __init__(self):
+#         self.__name="sathwik"
+#     def display(self):
+#         print(self.__name)
+# asd=Static_variable()
+# asd.display()
 
-class College(Educational_institute):
-    def 
+
+#polymorphism
+# class Porsche:
+#     def air_flow(self):
+#         print("Turbo Charger")
+# class Dodge:
+#     def air_flow(self):
+#         print("Super charger")
+        
+# list_of_item=[Porsche(), Dodge()]
+# for car in list_of_item:
+#     car.air_flow()
+#polymorphism end
+
+
+# class Example:
+#     def __init__(self, name):
+#         print(f"First constructir: Hello {name}")
+        
+#     def __init__(self, age):
+#         print(f"Second constructor: Age is {age}")
+        
+# obj=Example(15) #Calls only the second constructor
+#even if 
+# class Example:
+#     def __init__(self, *args):
+#         if len(args) == 1:
+#             print(f"Hellow {args[0]}")
+#         elif len(args) == 2:
+#             print(f"Hellow {args[0]}, you are {args[1]} years old")
+
+
+# class Example:
+#     def __init__(self, studentName, **kwargs):
+#         self.studentName=studentName
+#         if "name" in kwargs and "age" in kwargs:
+#             print(f"Hellow {kwargs['name]}, you")
+            
+            
+# class DestructorExample:
+#     def __init__(self, name):
+#         self.name=name
+#         print(f"Object {self.name} is created")
+        
+#     def __del__(self):
+#         print(f"Object {self.name} is destroyed")
+
+# obj=DestructorExample("Try")
+# del obj
+
+
+# class Bird:
+#     def fly(self):
+#         return "This bird can fly"
+
+# class Mammal:
+#     def walk(self):
+#         return "This mammal can walk"
+    
+# class Bat(Bird, Mammal):
+#     pass
+
+# bat=Bat()
+# print(bat.fly())
+# print(bat.walk())
+# m1=Mammal()
+# m1=Bat()
+# print(m1.walk())
+
+
+#HeirarchicalInterface
+class Shape:
+    def area(self):
+        pass
+
+class Circle(Shape):
+    def __init__(self,radius):
+        self.radius=radius
+        
+    def area(self):
+        return 3.14*self.radius**2
+
+class Square(Shape):
+    def __init__(self,length,breadth):
+        self.length=length
+        self.breadth=breadth
+    def area(self):
+        return self.length*self.breadth
+    
