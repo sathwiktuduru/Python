@@ -111,27 +111,27 @@ print(f"Total salary expense for {it_department.name} department: ${total_salary
 
 
 
-from abc import ABC, abstractmethod
-from typing import List
+# from abc import ABC, abstractmethod
+# from typing import List
 
-class Employee(ABC):
+# class Employee(ABC):
     
-    @abstractmethod
-    def work(self) -> str:
-        pass
+#     @abstractmethod
+#     def work(self) -> str:
+#         pass
     
-    @abstractmethod
-    def salary(self) -> float:
-        pass
+#     @abstractmethod
+#     def salary(self) -> float:
+#         pass
     
-class Manager(Employee):
+# class Manager(Employee):
     
-    def __init__(self, name: str, salary: float):
-        self.name=name
-        self.salary=salary
+#     def __init__(self, name: str, salary: float):
+#         self.name=name
+#         self.salary=salary
         
-    def work(self) -> str:
-        return f"{self.name} is managing the team"
+#     def work(self) -> str:
+#         return f"{self.name} is managing the team"
     
-    def get_salary(self) -> float:
-        return f"salary of manager {self.salary}"
+#     def get_salary(self) -> float:
+#         return f"salary of manager {self.salary}"
