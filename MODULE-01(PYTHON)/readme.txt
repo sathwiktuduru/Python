@@ -4,7 +4,7 @@ Day-05
 -Constructor
 
 Day-06
--Overloading
+-Overloading 
 -Overriding
 -static variables
 -Polymorphism
@@ -35,3 +35,12 @@ DAY - 12
     df(Object name)=pd.read_csv('data.csv)   #This is to read the csv file
     df.to_csv('output.csv', index=False) #This is to write to a csv file
     df[df['Age]>30] #Filters the data based on a condition
+
+DAY - 13 (By mam)
+-custom decorator
+-api
+-numpy
+-matplotlib
+
+DAY - 14(7/2/25)
+-HTML
