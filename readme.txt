@@ -48,5 +48,13 @@ DAY - 14(7/2/25)
 DAY-15(10/2/25)
 (node js, extract js, react, angular)
 
-DAY-16(11/2/2025)
+DAY-16(10/2/2025)
+-DOselect exam on python 6/6 done
+
+DAY-17(11/2/2025)
+-react
+-useCase and hooks
+-interest calculator
+
+DAY-18(12/2/2025)
 -

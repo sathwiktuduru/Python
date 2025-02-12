@@ -1,14 +1,14 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Users from './Users/Users.js';
 import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Redirect,
+  // Redirect,
   Switch
 } from 'react-router-dom';
-import Banners from './Users/Banners.js'
+// import Banners from './Users/Banners.js'
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
     // </div>
     <Router>
       <Switch>
-        <Route path="/" exact>
+        <Route path="/form" exact>
           <Users />
         </Route>
       </Switch>
