@@ -193,4 +193,10 @@ DAY-45 (24/03/2025)
 -BUild and Run docker
 
 DAY-46 (25/03/2025)
--
+-Docker Compose
+-creating microservices
+
+DAY-47 (26/03/2025)
+-publishing a docker and getting an Image in Docker(Docker_First)
+-Service Bus
+-In Service Bus: creating topic -> then 2 subscription
