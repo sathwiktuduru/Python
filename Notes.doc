@@ -6,3 +6,18 @@ Micro Services
 Correlation ID - a unique identifier, often a GUID, used to track a specific transaction or event chain as it moves through a distributed system, allowing for easier debugging and monitoring.
 
 Service Bus- it have correlation id and holds all the 
+
+27/03/2025 Service Bus Task
+
+Create a topic: NEWS
+And two subscription: 
+Morning News
+Evening News
+
+Google Scrapper
+
+
+Latency-photo will load after the text
+SLI(Service Level Indicators)
+SLO(ServiceLevel Objectives)
+SLA(Service Level Agreements)
