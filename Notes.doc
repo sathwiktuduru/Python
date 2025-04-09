@@ -21,3 +21,14 @@ Latency-photo will load after the text
 SLI(Service Level Indicators)
 SLO(ServiceLevel Objectives)
 SLA(Service Level Agreements)
+
+
+CAP - Consistency, Availability, Partition
+
+
+LOAD BALANCING APPROACH:
+If there are more than one server for one application then a gateway is used to allocate the server to the users.
+Gateway allocate the particular server the user
+
+
+A domain provides a ip address
