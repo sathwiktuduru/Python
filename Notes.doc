@@ -32,3 +32,8 @@ Gateway allocate the particular server the user
 
 
 A domain provides a ip address
+
+
+DAta persistant is not there in blob
+DATA persistant- It does not allow users to access its Database even though if request comes from same organization
+where as blob permit users to access the data
